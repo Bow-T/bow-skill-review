@@ -1,0 +1,12 @@
+{
+  "$schema": "https://raw.githubusercontent.com/Bow-T/bow-agent/main/schema/bow-skill.schema.json",
+  "id": "review",
+  "label": "Reviewer",
+  "version": "1.0.0",
+  "description": "Bộ skill Reviewer cho bow-agent — nạp tự động khi chạy Reviewer Mode (BOW_REVIEWER_MODE). Gồm pr-review: đọc PR GitHub / diff local, nhận xét có cấu trúc (correctness/bảo mật/reuse/test), rồi comment/approve qua gh pr khi được duyệt. Cần Reviewer Mode mở tool Skill + git/gh + Jira read.",
+  "maintainer": "bow-agent",
+  "skillsDir": "skills",
+  "skills": [
+    "pr-review"
+  ]
+}
